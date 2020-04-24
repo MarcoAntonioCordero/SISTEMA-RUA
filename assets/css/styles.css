@@ -1,0 +1,35 @@
+#menuh.scrollmenu {
+  background-color: #333;
+  overflow: auto;
+  white-space: nowrap;
+}
+
+#menuh.scrollmenu a {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+}
+
+#menuh.scrollmenu a:hover {
+  background-color: #777;
+}
+
+#tables.scrollmenu {
+  background-color: #777;
+  overflow: auto;
+  white-space: nowrap;
+}
+
+#tables.scrollmenu a {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+}
+
+#tables.scrollmenu a:hover {
+  background-color: #333;
+}

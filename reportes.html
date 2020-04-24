@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <script src="assets/js/jquery.min.js" charset="utf-8"></script>
+    <script src="assets/js/tables.js" charset="utf-8"></script>
+    <title>Sample - Sistema RUA</title>
+  </head>
+  <body>
+
+    <div id="menuh" class="scrollmenu">
+     <a href="index.html">Home</a>
+     <a href="datos.html">Concentrado de reportes</a>
+     <a href="insertar_reporte.html">Insertar nuevo reporte</a>
+     <a href="reportes.html">Ver reportes por mes</a>
+     <a href="#exit">Salir</a>
+    </div>
+
+<div id="tables" class="scrollmenu">
+<a href="#" id="todos">Todos</a>
+<a href="#" id="useraten">Usuarios atendidos</a>
+<a href="#" id="tipore">Tipo de reportes</a>
+<a href="#" id="cat">Categoria</a>
+<a href="#" id="subca">Subcategoria</a>
+<a href="#" id="percep">De los cuales</a>
+<a href="#" id="rutas">Rutas</a>
+<a href="#" id="hour">Horarios</a>
+<a href="#"id="edad">Edad</a>
+<a href="#" id="genero">Genero</a>
+</div>
+<p>Año
+  <select class="" name="">
+    <option value="">Año actual</option>
+    <option value="">2019</option>
+    <option value="">2020</option>
+
+  </select>
+</p>
+<p>Mes:
+  <select class="" name="">
+  <option value="">Mes actual</option>
+  <option value="">Enero</option>
+  <option value="">Febrero</option>
+  <option value="">Marzo</option>
+  <option value="">Abril</option>
+  <option value="">Mayo</option>
+  <option value="">Junio</option>
+  <option value="">Julio</option>
+  <option value="">Agosto</option>
+  <option value="">Septiembre</option>
+  <option value="">Octubre</option>
+  <option value="">Noviembre</option>
+  <option value="">Diciembre</option>
+</select>
+</p>
+
+
+<div class="inicio" id="useratent">
+  <table>
+    <tr>
+      <th>Mes</th>
+      <th>Cantidad</th>
+    </tr>
+    <tr>
+      <td>Enero</td>
+      <td>428</td>
+    </tr>
+    <tr>
+      <td>Febrero</td>
+      <td>428</td>
+    </tr>
+    <tr>
+      <td>Marzo</td>
+      <td>428</td>
+    </tr>
+    <tr>
+      <td>Abril</td>
+      <td>428</td>
+    </tr>
+    <tr>
+      <td>Mayo</td>
+      <td>428</td>
+    </tr>
+  </table>
+</div>
+
+<div class="inicio" id="tiporet">
+  <table>
+    <tr>
+      <th>Tipo</th>
+      <th>Cantidad</th>
+    </tr>
+    <tr>
+      <td>Redes sociales</td>
+      <td>248</td>
+    </tr>
+    <tr>
+      <td>Llamadas</td>
+      <td>34</td>
+    </tr>
+    <tr>
+      <td>CAU</td>
+      <td>34</td>
+    </tr>
+    <tr>
+      <td>Pagina web</td>
+      <td>2</td>
+    </tr>
+  </table>
+</div>
+
+<div class="inicio" id="catt">
+  <table>
+    <tr>
+      <th>Categoria</th>
+      <th>Cantidad</th>
+    </tr>
+    <tr>
+      <td>DO</td>
+      <td>128</td>
+    </tr>
+    <tr>
+      <td>CO</td>
+      <td>67</td>
+    </tr>
+    <tr>
+      <td>CR</td>
+      <td>12</td>
+    </tr>
+  </table>
+
+</div>
+
+<div class="inicio" id="subcat">
+  <table>
+    <tr>
+      <th>Subcategoria</th>
+      <th>Cantidad</th>
+    </tr>
+    <tr>
+      <td>RTE</td>
+      <td>128</td>
+    </tr>
+    <tr>
+      <td>NDP</td>
+      <td>67</td>
+    </tr>
+    <tr>
+      <td>SI</td>
+      <td>12</td>
+    </tr>
+    <tr>
+      <td>AA</td>
+      <td>23</td>
+    </tr>
+    <tr>
+      <td>MMA</td>
+      <td>22</td>
+    </tr>
+    <tr>
+      <td>IH</td>
+      <td>43</td>
+    </tr>
+    <tr>
+      <td>TSS</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <td>IR</td>
+      <td>7</td>
+    </tr>
+    <tr>
+      <td>OE</td>
+      <td>8</td>
+    </tr>
+    <tr>
+      <td>FMU</td>
+      <td>6</td>
+    </tr>
+    <tr>
+      <td>ACP</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <td>SE</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <td>AAV</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <td>SYM</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>MC</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>PEU</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>DOM</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>FM</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>NADP</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>PK</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>PPS</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>PTS</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>UAC</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>VNA</td>
+      <td>2</td>
+    </tr>
+
+  </table>
+</div>
+
+<div class="inicio" id="percept">
+  <table>
+    <tr>
+      <th>Percepcion</th>
+      <th>Cantidad</th>
+    </tr>
+    <tr>
+      <td>Reportes negativos</td>
+      <td>200</td>
+    </tr>
+    <tr>
+      <td>Reportes neutrales</td>
+      <td>120</td>
+    </tr>
+    <tr>
+      <td>Reportes positivos</td>
+      <td>190</td>
+    </tr>
+  </table>
+</div>
+
+<div class="inicio" id="rutast">
+  <table>
+    <tr>
+      <th>Ruta</th>
+      <th>Cantidad</th>
+    </tr>
+    <tr>
+      <td>RA11</td>
+      <td>128</td>
+    </tr>
+    <tr>
+      <td>Ra3</td>
+      <td>67</td>
+    </tr>
+    <tr>
+      <td>RA4</td>
+      <td>23</td>
+    </tr>
+    <tr>
+      <td>RA5</td>
+      <td>43</td>
+    </tr>
+    <tr>
+      <td>RA8</td>
+      <td>32</td>
+    </tr>
+  </table>
+</div>
+
+<div class="inicio" id="hourt">
+  <table>
+    <tr>
+      <th>Hora</th>
+      <th>Cantidad</th>
+    </tr>
+    <tr>
+      <td>00:00 - 04:00</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>05:00 - 06:00</td>
+      <td>67</td>
+    </tr>
+    <tr>
+      <td>06:00 - 07:00</td>
+      <td>23</td>
+    </tr>
+    <tr>
+      <td>07:00 - 08:00</td>
+      <td>43</td>
+    </tr>
+    <tr>
+      <td>08:00 - 09:00</td>
+      <td>32</td>
+    </tr>
+  </table>
+</div>
+
+<div class="inicio" id="edadt">
+  <table>
+    <tr>
+      <th>Edad</th>
+      <th>Cantidad</th>
+    </tr>
+    <tr>
+      <td>Adultos</td>
+      <td>128</td>
+    </tr>
+    <tr>
+      <td>Jovenes</td>
+      <td>67</td>
+    </tr>
+    <tr>
+      <td>Tercera edad</td>
+      <td>13</td>
+    </tr>
+  </table>
+</div>
+
+<div class="inicio" id="generot">
+  <table>
+    <tr>
+      <th>Genero</th>
+      <th>Cantidad</th>
+    </tr>
+    <tr>
+      <td>Masculino</td>
+      <td>128</td>
+    </tr>
+    <tr>
+      <td>Femenino</td>
+      <td>67</td>
+    </tr>
+  </table>
+</div>
+
+  </body>
+</html>
